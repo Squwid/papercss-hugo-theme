@@ -1,12 +1,12 @@
 /* base */
 body {
-  background-image: url('{{ "img/geometry2.png" | relURL }}');
+  background-image: url('{{ "img/squidbg.png" | relURL }}');
 }
 
 /* anchors */
 a,
 a:visited {
-  color: rgb(0, 0, 238);
+  color: rgb(66, 66, 99);
   background-image: none;
   text-decoration: underline;
 }
@@ -34,6 +34,11 @@ blockquote {
 /* post single */
 .post-title {
   margin-bottom: 0.1em; 
+}
+
+.post-meta {
+  margin: 0.2em;
+  font-weight: bold;
 }
 
 /* toc */
