@@ -68,7 +68,6 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    style: monokai
     tabWidth: 4
   tableOfContents:
     endLevel: 6
