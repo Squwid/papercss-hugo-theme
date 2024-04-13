@@ -5,10 +5,10 @@
 {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
 <strong>Publish date: </strong>{{ .PublishDate.Format $dateFormat }}
 <br>
-{{ with .Params.tags }}
-  <strong>Tags: </strong>
+{{ with .Params.projects }}
+  <strong>Projects: </strong>
   {{ range . }}
-    <a href="{{ "tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    <a href="{{ "projects/" | relURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
 {{ end }}
 
